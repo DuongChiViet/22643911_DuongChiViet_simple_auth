@@ -46,20 +46,10 @@ Password: 12345
 **4️⃣ Kiểm thử các trường hợp với Postman**
 
 - Trường hợp GET `/` → Welcome! Visit first public resource.
-
-  ![1759140881442](image/README/1759140881442.png)
 - Trường hợp GET `/public` → Welcome! Visit second public resource.
-
-  ![1759140893493](image/README/1759140893493.png)
 - Trường hợp GET `/secure` chưa đăng nhập → Báo lỗi xác thực.
-
-  ![1759140907965](image/README/1759140907965.png)
 - Trường hợp GET `/secure` đúng tài khoản → Truy cập thành công.
-
-  ![1759140919505](image/README/1759140919505.png)
 - Trường hợp GET `/secure` sai tài khoản → Báo lỗi xác thực.
-
-  ![1759140929640](image/README/1759140929640.png)
 
 ---
 
@@ -89,16 +79,8 @@ Password: 12345
 **4️⃣ Hướng dẫn kiểm thử**
 
 - Trường hợp GET `/profile` chưa đăng nhập → No cookie found.
-
-  ![1759140963775](image/README/1759140963775.png)
 - Trường hợp POST `/login` → Logged in, trả về cookie.
-
-  ![1759140974773](image/README/1759140974773.png)
-
-  ![1759141012259](image/README/1759141012259.png)
 - Trường hợp GET `/profile` sau khi đăng nhập → cookie được gửi kèm, truy cập thành công.
-
-  ![1759140997127](image/README/1759140997127.png)
 
 **5️⃣ Kiểm tra trong MongoDB (Thông tin session)**
 Ví dụ minh họa dữ liệu session lưu trong MongoDB:
